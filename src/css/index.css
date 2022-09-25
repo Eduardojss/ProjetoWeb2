@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 5px 5px;
+    margin-right:30px ;
+}
+input[type="checkbox"]{
+    display:none;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    
+}
+.backgroundImg{
+    width:auto;
+    background-image: url('../img/arraial-do-cabo.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+
+}
+.searchMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px,-1px 0 50px black;
+    width:100%;
+    height:150px;
+}
+.textdestinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:100px
+}
+.container-img{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.saoPaulo{
+    background-image: url("../img/saopaulo.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.recife{
+    background-image: url("../img/Recife.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.bahia{
+    background-image: url("../img/bahia.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.rio{
+    background-image: url("../img/rio-de-janeiro.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.santacatarina{
+    background-image: url("../img/santa-catarina.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.ceara {
+    background-image: url("../img/ceara.jpg");
+    width:300px;
+    height:350px;
+    border-radius:10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px black, 0px 0px 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.container-img h3{
+    text-align: center;
+    color:#000;
+    text-decoration: underline;
+    margin-bottom:100px;
+}
+.container-img span{
+    margin-left:20%;
+    
+    text-align: center;
+    color:#000;
+    font-size:35px ;
+    text-shadow: 1px 2px #fff;
+}
+.container-img .sabermais{
+    margin-left: 27%;
+    background-color: aliceblue;
+    opacity: 80%;
+    width: 150px;
+    margin-top: 10%;
+   
+}
+.container-img .sabermais a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    width: 100%;
+}
+
+#menu{
+    display: none;
+    position:absolute;
+    background-color: #fff;
+    width:200px;
+    height:100px;
+    position: absolute;
+    display: none;
+    z-index: 100;
+}
+#nav.checked #menu{
+    display: block;
+    
+}
